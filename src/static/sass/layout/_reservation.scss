@@ -1,0 +1,104 @@
+
+.navigation-fixed {
+    padding-top: 84px;
+}
+
+
+.reservation {
+    background-image: url("../img/bg_top.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0 110px 0;
+}
+
+.form_cont  {
+    margin-left: 220px;
+    margin-right: 94px;
+    width: 300px;
+    padding: 32px 35px 35px 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow:  8px 8px 10px rgba(0,0,0,0.2);
+    h2 {
+        color: #5363db;
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 23px;
+    }
+}
+
+.contact_form {
+    overflow: hidden;
+}
+
+.form-select,
+.form-input {
+    background-color: #f2f2f2;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    padding-left: 10px;
+    width: 230px;
+    height: 50px;
+}
+
+
+
+.contact_form select {
+    color: #888888;
+    margin-bottom: 31px;
+}
+
+.contact_form input::-webkit-input-placeholder {
+    color: #888888;
+}
+
+.contact_form input:-moz-placeholder {
+    color: #888888;
+}
+
+.contact_btn {
+    cursor: pointer;
+    background-color: #5b6ceb;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 64px 15px 64px;
+    float: right;
+    outline: none;
+}
+
+.contact_btn:active {
+    transform: scale(0.97, 0.97);
+}
+.main_title {
+    background-image: url('../img/main_title.png');
+    background-repeat: no-repeat;
+    background-position: 0 174px;
+    margin-top: 58px;
+    padding-bottom: 130px;
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.field-error {
+    border-color: red;
+    // background: red;
+}
+
+.field-error-text {
+color: red;
+order: -1;
+}

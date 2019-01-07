@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" />
+    <title>Document</title>
+</head>
+<body id="id_home">
+    <header>
+        <nav class="site-nav">
+            <div class="site-logo_responsive" id="id_logo">
+                <a href="#id_home"><img src="img/site-logo.png" alt="site logo"></a>  
+            </div>
+            
+            <button class="hamburger hamburger--stand" id="hamburger" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+
+            <ul class="site-nav_list" id="menu">
+                <li class="site_nav_link"><a href="#id_about_us">About us</a></li>
+                <li class="site_nav_link"><a href="#id_reservation">Reservation</a></li>
+                <li class="site_nav_link"><a href="#id_gallery">Gallery</a></li>
+                <li class="logo">
+                    <a href="#id_home">
+                        <img src="img/site-logo.png" alt="site-logo">
+                    </a>
+                </li>
+                <li class="site_nav_link"><a href="#id_blog">Blog</a></li>
+                <li class="site_nav_link"><a href="#id_elements">Elements</a></li>
+                <li class="site_nav_link"><a href="#id_shop">Shop</a></li>
+            </ul>
+        </nav>
+        
+
+        <section class="reservation" id="id_reservation">
+            <div class="container">
+                <div class="form_cont">
+                    <h2 >Trial Class</h2>
+                    <form class="contact_form" action="">
+                        <div class="form-field">
+                            <input type="name" id="user-name" class="form-input" placeholder="Enter your name">
+                        </div>
+                        <div class="form-field">
+                            <input type="tel" id="user-phone" class="form-input" placeholder="Enter your phone">
+                        </div>
+                        <div class="form-field">
+                            <select class="form-select" id="select-class">
+                                <option value="">Chose your class</option>
+                                <option value="health">Yoga For Health</option>
+                                <option value="weight">Yoga For Lose Weight</option>
+                                <option value="children">Yoga For Children</option>
+                                <option value="elderly">Yoga For Elderly</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="contact_btn" id="submit-btn">Try it</button>
+                    </form>
+                </div>
+        
+                    <div>
+                        <h2 class="main_title">Just Balance <br> your Mind & Body </h1>
+                    </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="program">
+        <div class="container">
+            <h2 class="program_title">
+                    Yoga FEATURE PROGRAM 
+            </h2>
+    
+            <div class="program_cont">
+                <div class="row">
+                    <div class="program_item">
+                        <img src="img/health.jpg" alt="">
+                        <div class="program_text_cont">
+                            <h3>Yoga For Health</h3>
+                            <p class="program_text">
+                                Minim veniam, quis nostrud exercitation ullamco 
+                                laboris nisi ut aliquip ex ea commodo consequat
+                                consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                            <p class="program_text_small">
+                                Ashtanga - Hatha  
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="program_item">
+                        <img class="program_img" src="img/weight.jpg" alt="">
+                        <div class="program_text_cont">
+                            <h3>Yoga For Lose Weight</h3>
+                            <p class="program_text">
+                                Minim veniam, quis nostrud exercitation ullamco 
+                                laboris nisi ut aliquip ex ea commodo consequat
+                                consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                            <p class="program_text_small">
+                                Ashtanga - Hatha  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="program_item">
+                        <img src="img/children.jpg" alt="">
+                        <div class="program_text_cont">
+                            <h3>Yoga For Children</h3>
+                            <p class="program_text">
+                                Minim veniam, quis nostrud exercitation ullamco 
+                                laboris nisi ut aliquip ex ea commodo consequat
+                                consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                            <p class="program_text_small">
+                                Ashtanga - Hatha  
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="program_item">
+                        <img src="img/elderly.jpg" alt="">
+                        <div class="program_text_cont">
+                            <h3>Yoga For Elderly</h3>
+                            <p class="program_text">
+                                Minim veniam, quis nostrud exercitation ullamco 
+                                laboris nisi ut aliquip ex ea commodo consequat
+                                consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                            <p class="program_text_small">
+                                Ashtanga - Hatha  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section class="gallery" id="id_gallery">
+        <div class="row">
+            <div class="gallery_item">
+                <img class="gallery_img" src="img/pic-1.jpg" alt="">
+                <a href="img/pic-1.jpg" data-lightbox="gallery"> <img class="gallery_hover" src="img/hover.png" alt=""></a>
+            </div>
+            <div class="gallery_item">
+                <img class="gallery_img" src="img/pic-2.jpg" alt="">
+                <a href="img/pic-2.jpg" data-lightbox="gallery"> <img class="gallery_hover" src="img/hover.png" alt=""></a>
+            </div>
+            <div class="gallery_item">
+                <img class="gallery_img" src="img/pic-3.jpg" alt="">
+                <a href="img/pic-3.jpg" data-lightbox="gallery"> <img class="gallery_hover" src="img/hover.png" alt=""></a>
+            </div>
+            <div class="gallery_item">
+                <img class="gallery_img" src="img/pic-4.jpg" alt="">
+                <a href="img/pic-4.jpg" data-lightbox="gallery"> <img class="gallery_hover" src="img/hover.png" alt=""></a>
+            </div>  
+        </div>
+        
+        <div class="row">
+            <div class="gallery_item">
+                <img class="gallery_img" src="img/pic-5.jpg" alt="">
+                <a href="img/pic-5.jpg" data-lightbox="gallery"> <img class="gallery_hover" src="img/hover.png" alt=""></a>
+            </div>
+            <div class="gallery_item">
+                <img class="gallery_img" src="img/pic-6.jpg" alt="">
+                <a href="img/pic-6.jpg" data-lightbox="gallery"> <img class="gallery_hover" src="img/hover.png" alt=""></a>
+            </div>
+            <div class="gallery_item">
+                <img class="gallery_img" src="img/pic-7.jpg" alt="">
+                <a href="img/pic-7.jpg" data-lightbox="gallery"> <img class="gallery_hover" src="img/hover.png" alt=""></a>
+            </div>
+            <div class="gallery_item">
+                <img class="gallery_img" src="img/pic-8.jpg" alt="">
+                <a href="img/pic-8.jpg" data-lightbox="gallery"> <img class="gallery_hover" src="img/hover.png" alt=""></a>
+            </div>
+          
+        </div>
+    </section>
+
+    <section class="about_as" id="id_about_us">
+        <div class="container">
+            <div class="about_us_text">
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim 
+                    ad minim veniam, quis nostrud exercitation toui ullamcomi
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    it in lorei voluptate velit esse cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.</p>
+            </div>
+        
+            <div class="about_us_slider">
+                <div><img src="img/slider_about_us.jpg" alt=""></div>
+                <div><img src="img/slider_about_us.jpg" alt=""></div>
+                <div><img src="img/slider_about_us.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="elements" id="id_elements">
+        <div class="container">
+            <div class="elements_wrapper elements_slider">
+                <div class="elements_item">
+                    <img src="img/heart.png" alt="">
+                    <h3>IMPROVED OVERALL <br> HEALTH</h3>
+                    <p>Enim ad minim veniam, quis nostrud exercitation 
+                        toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                </div>
+                <div class="elements_item">
+                    <img src="img/eye.png" alt="">
+                    <h3>INCREASED <br> CONCENTRATION</h3>
+                    <p>Enim ad minim veniam, quis nostrud exercitation 
+                        toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                </div>
+                <div class="elements_item">
+                    <img src="img/balance.png" alt="">
+                    <h3>BLANCE <br> YOUR MIND</h3>
+                    <p>Enim ad minim veniam, quis nostrud exercitation 
+                        toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                </div>
+                <div class="elements_item">
+                    <img src="img/sleep.png" alt="">
+                    <h3>SLEEP <br> BETTER</h3>
+                    <p>Enim ad minim veniam, quis nostrud exercitation 
+                        toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                </div>
+            
+                <div class="elements_item">
+                    <img src="img/weight_loss.png" alt="">
+                    <h3>WEIGHT LOSS</h3>
+                    <p>Enim ad minim veniam, quis nostrud exercitation 
+                        toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                </div>
+                <div class="elements_item">
+                    <img src="img/bone.png" alt="">
+                    <h3>STRENGTHENS <br> YOUR BONES</h3>
+                    <p>Enim ad minim veniam, quis nostrud exercitation 
+                        toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                </div>
+                <div class="elements_item">
+                    <img src="img/fitness.png" alt="">
+                    <h3>INCREASED <br> FLEXIBILITY</h3>
+                    <p>Enim ad minim veniam, quis nostrud exercitation 
+                        toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                </div>
+                <div class="elements_item">
+                    <img src="img/blood.png" alt="">
+                    <h3>LOWER BLOOD <br> PRESSURE</h3>
+                    <p>Enim ad minim veniam, quis nostrud exercitation 
+                        toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   
+    <section class="shop blog" id="id_shop">
+        <div class="container section-shop">
+            <div class="basic, shop_item">
+                <div class="shop_price">
+                    <p class="dolar">$</p>
+                    <p class="price">49</p>
+                    <p class="month">/ month</p>
+                </div>
+                <div class="price_info">
+                    <p>ENTRY DATE: MON – FRI</p>
+                    <hr>
+                    <p>ENTRY TIME: 8A.M – 8P.M</p>
+                    <hr>
+                    <p>NUTRITION ADVICER: NO</p>
+                    <button class="shop_btn">Buy now</button>
+                </div>
+            </div>
+            <div class="pro, shop_item">
+                <div class="shop_price">
+                    <p class="dolar">$</p>
+                    <p class="price">69</p>
+                    <p class="month">/ month</p>
+                </div>
+                <div class="price_info">
+                    <p>ENTRY DATE: MON – FRI</p>
+                    <hr>
+                    <p>ENTRY TIME: 8A.M – 8P.M</p>
+                    <hr>
+                    <p>NUTRITION ADVICER: YES</p>
+                    <button class="shop_btn">Buy now</button>
+                </div>
+            </div>
+            <div class="premium, shop_item">
+                <div class="shop_price">
+                    <p class="dolar">$</p>
+                    <p class="price">99</p>
+                    <p class="month">/ month</p>
+                </div>
+                <div class="price_info">
+                    <p>ENTRY DATE: MON – SUN</p>
+                    <hr>
+                    <p>ENTRY TIME: 8A.M – 8P.M</p>
+                    <hr>
+                    <p>NUTRITION ADVICER: YES</p>
+                    <button class="shop_btn">Buy now</button>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div class="container section-blog" id="id_blog">
+            <div class="blog_slider">
+                <div><img src="img/blog.jpg" alt=""> </div>
+                <div><img src="img/blog2.jpg" alt=""> </div>
+                <div><img src="img/blog.jpg" alt=""> </div>
+                <div><img src="img/blog2.jpg" alt=""> </div>
+                
+            </div>
+            <div class="blog_slider_next">
+                <div><img src="img/blog-next1.png" alt=""> </div>
+                <div><img src="img/blog-next2.png" alt=""> </div>
+                <div><img src="img/blog-next1.png" alt=""> </div>
+                <div><img src="img/blog-next2.png" alt=""> </div>
+                
+            </div>
+        </div>
+
+    </section>
+    
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer_cont">
+                <div class="footer_about">
+                    <h3>About</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad m inim veniam, quis nostrud exercitation toui
+                        ullamcomi laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+
+                <div class="footer_contact">
+                    <h3>Contact us</h3>
+                    <div class="contact_cont">
+                        <div class="contact-info_row contact-address">
+                            <div class="phone_number">5419 Joseph Mountains</div>
+                            <div class="phone_operators">Apt. 716</div>
+                        </div>
+
+                        <div class="contact-info_row contact-email">
+                            <div class="phone_number">joga.info@example.com</div>
+                        </div>
+
+                        <div class="contact-info_row contact-phone">
+                            <div class="phone_number">+1 234 567 89</div>
+                            <div class="phone_operators">+1 234 678 90</div>
+                        </div>
+
+                        <div class="contact-info_row contact-site">
+                            <div class="phone_number">www.example.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <ul class="footer-social">
+                <li><a href="#"><img src="img/pinterest-logo.png" alt=""></a></li>
+                <li><a href="#"><img src="img/twitter-logo.png" alt=""></a></li>
+                <li><a href="#"><img src="img/facebook-logo.png" alt=""></a></li>
+                <li><a href="#"><img src="img/google-logo.png" alt=""></a></li>
+                <li><a href="#"><img src="img/instagram-logo.png" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <footer class="copyright_cont">
+        <div>
+            <p class="copyright">
+                Copyright  ©  2016-2017 Yoga classes
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.js"></script>
+    <script type="text/javascript" src="js/libs.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>      
+
+</body>
+</html>

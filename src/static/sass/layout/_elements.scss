@@ -1,0 +1,37 @@
+
+.elements {
+    padding-top: 120px;
+    padding-bottom: 140px;
+    background-image: url('../img/bg_bottom.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+   
+}
+
+.elements_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.elements_item {
+    width: 20%;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+.elements_item h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.elements_item p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 60px;
+}

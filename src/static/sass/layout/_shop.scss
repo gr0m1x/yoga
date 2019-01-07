@@ -1,0 +1,86 @@
+.shop {
+    padding-bottom: 170px;
+    padding-top: 100px; 
+    background-image: url('../img/bg_shop.jpg');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-color: #ffffff;
+}
+
+
+.shop_item {
+    width: 33%;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: #fff;
+    box-shadow:  0 0 10px rgba(0,0,0,0.2);
+    border-radius: 9px ;
+}
+.shop_price {
+    
+    padding: 40px 50px 45px 100px;
+    font-weight: bold;
+    display: flex;
+    background-color: #5b6ceb;
+    color: #fff;
+    border-radius: 9px 9px 0 0;
+}
+
+.shop_price .dolar{
+    align-self: center;
+    font-size: 32px;
+    margin-right: 15px;
+}
+
+.shop_price .price {
+    line-height: 1;
+    align-self: flex-end;
+    font-size: 67px;  
+}
+
+.shop_price .month{
+    align-self: flex-end;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.shop_item hr {
+    margin: auto;
+    background-color: #d7d7d7;
+    height: 1px;
+    width: 99px;
+    border: none;
+}
+
+.price_info {
+    padding:30px 15px 50px 15px;
+    text-align: center;
+    p {
+        margin: 20px 0;
+        font-size: 18px;
+        color: #555555;
+    }
+}
+
+
+
+.shop_btn {
+    cursor: pointer;
+    outline: none;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #5b6ceb;
+    border: none;
+    border-radius: 20px;
+    padding: 13px 48px;
+    transition: 0.3s;
+}
+
+.shop_btn:active {
+    transform: scale(0.95, 0.95);
+}
+.shop_btn:hover {
+    box-shadow:  0 0 30px #5b6ceb;
+}
