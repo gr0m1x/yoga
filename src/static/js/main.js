@@ -60,13 +60,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         asNavFor: '.blog_slider',
         focusOnSelect: true,
-        responsive: [{
-          
-        breakpoint: 580,
-        settings: 'unslick',
-        
-      }
-  ]
+     
         
     });
 
